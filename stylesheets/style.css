@@ -603,7 +603,8 @@
 		#logo a {
 			color: inherit;
 		}
-
+        .f-nav{ z-index: 9999; position: fixed; left: 0; top: 0; width: 100%; padding:0 20px;} /* ini yang membuat menu menjadi melayang (fixed) */
+	
 	#nav {
 		position: absolute;
 		top: 0;
